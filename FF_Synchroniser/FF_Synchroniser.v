@@ -12,7 +12,7 @@ module ff_synchroniser #
 );
 
   reg [sync_size-2:0] sig_b_int;
-  wire [sync_size-2:0] sig_a_int;
+  reg [sync_size-2:0] sig_a_int;
 
     
     generate if (pre_reg) begin : A1

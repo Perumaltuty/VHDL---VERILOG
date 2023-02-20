@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module areset_deassert_sync(
+module Async_reset_Sync_deassert(
   input clk,
   input async_rst_i,
   output sync_rst_o
